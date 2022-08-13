@@ -1,3 +1,11 @@
+> 添加中文支持
+>
+> 使用 https://github.com/codepiano/lunr.js 替代依赖中的 lunr
+>
+> 注释了 lunr-language, 对中文搜索没什么帮助
+>
+> 不出意外的话会跟随官方更新
+
 Raneto [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ryanlelek/Raneto/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ryanlelek/Raneto/tree/master)
 ======
 
@@ -28,17 +36,17 @@ Quickstart
    ```
 1. Visit [http://localhost:3000](http://localhost:3000) to display the output.
 
-See the [installation guide](http://docs.raneto.com/install/installing-raneto) for more information.  
+See the [installation guide](http://docs.raneto.com/install/installing-raneto) for more information.
 
 Supported Node Versions:
 - v18.x.x (Current)
 - v16.x.x (LTS)
 
-Please use the latest version available of the above major Node.js releases to ensure you have the latest security fixes!  
+Please use the latest version available of the above major Node.js releases to ensure you have the latest security fixes!
 
 Security
 --------
-Make sure you edit the default username and password in your `config.js` file.  
+Make sure you edit the default username and password in your `config.js` file.
 ```
 ##### WARNING #####
 // You MUST change the username and password for security
@@ -52,7 +60,7 @@ Make sure you edit the default username and password in your `config.js` file.
 
 Markdown Reference
 ------------------
-If you want to embed links and images, you'll need to use the Markdown syntax.  
+If you want to embed links and images, you'll need to use the Markdown syntax.
 [See this Markdown Guide](https://www.markdownguide.org/cheat-sheet)
 
 Links
